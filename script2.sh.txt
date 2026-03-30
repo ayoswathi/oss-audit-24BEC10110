@@ -1,0 +1,6 @@
+#!/bin/bash
+if dpkg -l | grep -q mysql; then
+    echo "MySQL is installed"
+else
+    echo "MySQL is not installed"
+fi
